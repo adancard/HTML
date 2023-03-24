@@ -1,0 +1,15 @@
+    body{
+
+        border: red solid 2px;
+        margin: 0 auto;
+        max-width: 500px;
+
+    }
+
+    .box{
+
+        border: green solid 2px;
+        margin: 20px;
+        text-align: center;
+
+    }
