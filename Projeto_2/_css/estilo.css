@@ -1,0 +1,144 @@
+body{
+
+    /* border: solid red 2px; */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+
+}
+
+header{
+
+    /* border: green solid 2px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.titulo{
+
+    text-align: center;
+    line-height: 10px;
+
+}
+
+li{
+
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+    /*margin: 20px;*/
+
+}
+
+a{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover{
+    
+    color: rgb(208, 117, 229);
+    transition: 0.5s;
+
+}
+
+#btn-conta:hover{
+
+   /* border: rgb(208, 117, 229) solid 1px;*/
+   background-image: radial-gradient(circle at -11.01% 39.24%, #ff40ff 0, #ff41ff 16.67%, #e440ff 33.33%, #b53cf2 50%, #8637de 66.67%, #5732ca 83.33%, #182eb8 100%);
+   /*background-image: radial-gradient(circle at 4.16% 50%, #d46cf1 0, #b35ff2 25%, #8953f2 50%, #4a4bf2 75%, #0046f3 100%);*/
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.5s;
+
+}
+
+main{
+
+    /*border: purple solid 2px;*/
+    display: flex;
+    flex-direction: row;
+    margin-top: 28px;
+    justify-content: space-between;
+
+}
+
+aside{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+h2{
+
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+
+}
+
+span{
+
+    color:rgb(208, 117, 229) ;
+
+}
+
+p{
+
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+    text-align: justify;
+
+}
+
+img{
+
+    width: 420px;
+
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+}
+
+form [type="submit"]{
+
+    height: 50px;
+    width: 50%;
+    background-color: rgb(208, 117, 229);
+    color: white;
+    font-weight: bold;
+    
+}
+
+form:hover [type="submit"]{
+
+    cursor: pointer;
+
+}
+
+input{
+
+    margin-top: 20px;
+    height: 20px;
+    padding: 11px;
+    border-radius: 20px;
+
+}
+
+
