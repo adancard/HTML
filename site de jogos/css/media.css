@@ -1,0 +1,32 @@
+@media screen and (max-width: 790px) {
+
+    body {
+
+        border: solid red;
+        /* height: 1690px; */
+
+
+    }
+
+    .dropdown {
+        align-self: center;
+    }
+
+    .fundo {
+
+        display: flex;
+        border: solid red;
+        flex-direction: column;
+
+    }
+
+    .sobre {
+
+        border: solid red;
+      
+
+
+    }
+
+
+}
