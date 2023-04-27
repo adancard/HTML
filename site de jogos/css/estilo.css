@@ -2,7 +2,7 @@
 
 body {
 
-    height: 1680px;
+    /* border: solid red; */
     margin: 0;
     font-size: 16px;
     background-color: #111;
@@ -259,7 +259,7 @@ main {
 footer {
 
     text-align: center;
-    position: fixed;
+    height: 50px;
     top: 560px;
     background-color: #ddd;
     color: #111;

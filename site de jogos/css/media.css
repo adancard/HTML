@@ -4,7 +4,7 @@
 
         /* border: solid red; */
         flex-direction: column;
-        height: 2900px;
+        height: 3000px;
 
 
     }
@@ -28,5 +28,21 @@
 
     }
 
+    .pimg1{
+        
+        background-attachment: fixed;
+
+    }
+
+    footer{
+
+        position: fixed;
+        height: 70px;
+
+
+    }
+
 
 }
+
+

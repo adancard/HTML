@@ -2,7 +2,6 @@
 
 body {
 
-    height: 1980px;
     margin: 0;
     font-size: 16px;
     background-color: #111;
@@ -213,7 +212,6 @@ nav a {
     width: 300px;
     padding: 18px;
     margin: 40px;
-    height: 79%;
 
 }
 
@@ -262,9 +260,8 @@ nav a {
 footer {
 
     text-align: center;
-    position: fixed;
-    top: 560px;
     background-color: #ddd;
+    height: 40px;
     color: #111;
     width: 100%;
     font-size: 18px;
