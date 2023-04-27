@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+
 body {
 
     height: 1980px;
@@ -178,6 +181,7 @@ nav a {
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
+    font-family: 'Chakra Petch', sans-serif;
 
 }
 
@@ -260,7 +264,7 @@ footer {
 
     text-align: center;
     position: fixed;
-    bottom: 0px;
+    top: 560px;
     background-color: #ddd;
     color: #111;
     width: 100%;
