@@ -154,7 +154,7 @@ nav a {
 
 .pimg1 {
 
-    background-image: url(../img/fundo.webp);
+    background-image: url(../img/fundo\ a.webp);
     min-height: 400px;
     margin: 5px;
     border-radius: 2px;
@@ -172,6 +172,12 @@ nav a {
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
+
+}
+
+.preco{
+
+    color: green;
 
 }
 
@@ -198,12 +204,6 @@ nav a {
     height: 33%;
     flex-direction: row;
     margin: 5px;
-
-}
-
-.preco{
-
-    color: green;
 
 }
 

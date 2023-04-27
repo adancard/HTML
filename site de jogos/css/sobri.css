@@ -154,11 +154,17 @@ nav a {
 
 .pimg1 {
 
-    background-image: url(../img/fundo.webp);
+    background-image: url(../img/fundo\ sobri.jpeg);
     min-height: 400px;
     margin: 5px;
     border-radius: 2px;
    
+
+}
+
+.preco{
+
+    color: green;
 
 }
 
@@ -198,12 +204,6 @@ nav a {
     height: 33%;
     flex-direction: row;
     margin: 5px;
-
-}
-
-.preco{
-
-    color: green;
 
 }
 

@@ -2,8 +2,9 @@
 
     body {
 
-        border: solid red;
-        /* height: 1690px; */
+        /* border: solid red; */
+        flex-direction: column;
+        height: 2900px;
 
 
     }
@@ -12,19 +13,18 @@
         align-self: center;
     }
 
-    .fundo {
+    .fundo{
 
         display: flex;
-        border: solid red;
         flex-direction: column;
+        /* border: solid red; */
 
     }
 
-    .sobre {
+    .container{
 
-        border: solid red;
-      
-
+        align-items: center;
+        flex-direction: column;
 
     }
 

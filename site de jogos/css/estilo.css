@@ -158,42 +158,11 @@ main {
 
 }
 
-
-table {
-
-    align-self: center;
-    width: 100%;
-    width: 1px;
-    text-align: center;
-    /* border: solid red 2px;  */
-    margin: auto;
-    padding: 10px;
-    width: 100%;
-    height: 50%;
-    border-collapse: collapse;
-
-
-}
-
-tr {
-
-    box-shadow: 1px 1px 15px 1px rgb(221, 221, 221);
-
-}
-
-td,
-th {
-
-
-
-    font-size: 30px;
-    padding: 50px;
-}
-
 .comprar {
 
     text-decoration: none;
     color: #ddd;
+    font-size: 25px;
 
 }
 
@@ -245,12 +214,25 @@ th {
     background-color: #111;
     color: #fff;
     padding: 20px;
+    border-radius: 10px;
+
+}
+
+.preco{
+
+    color: green;
 
 }
 
 .ptext .border .trans {
 
     background-color: transparent;
+
+}
+
+.preco{
+
+    color: green;
 
 }
 
@@ -290,3 +272,32 @@ footer p {
     width: 100%;
 
 }
+
+.container{
+
+    /* border: solid red; */
+    display: flex;
+    height: 63%;
+    flex-direction: row;
+
+}
+
+.card{
+
+    box-shadow: 1px 1px 15px 1px rgb(221, 221, 221);
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+    width: 300px;
+    padding: 18px;
+    margin: 40px;
+
+}
+
+.card p{
+
+    font-size: 25px;
+    padding: 15px;
+
+}
+

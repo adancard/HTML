@@ -154,7 +154,7 @@ nav a {
 
 .pimg1 {
 
-    background-image: url(../img/fundo.webp);
+    background-image: url(../img/fundo\ acao.jpeg);
     min-height: 400px;
     margin: 5px;
     border-radius: 2px;
@@ -201,12 +201,6 @@ nav a {
 
 }
 
-.preco{
-
-    color: green;
-
-}
-
 .card{
 
     box-shadow: 1px 1px 15px 1px rgb(221, 221, 221);
@@ -234,6 +228,12 @@ nav a {
     text-decoration: none;
     color: #ddd;
     font-size: 25px;
+
+}
+
+.preco{
+
+    color: green;
 
 }
 

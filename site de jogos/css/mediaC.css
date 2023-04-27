@@ -1,0 +1,47 @@
+@media screen and (max-width: 790px) {
+
+    body {
+
+        /* border: solid red; */
+        flex-direction: column;
+        height: 1900px;
+
+
+    }
+
+    .container{
+
+        align-items: center;
+        /* border: solid red; */
+        flex-direction: column;
+        height: 38%;
+
+    }
+
+}
+
+@media screen and (max-width: 810px) {
+    
+
+    .ptext{
+
+        line-height: 70px;
+        
+
+    }
+
+
+}
+
+@media screen and (max-width: 1030px) {
+
+    .container{
+
+        align-items: center;
+        flex-direction: column;
+        /* border: solid red; */
+        height: 100%;
+
+    }
+
+}
