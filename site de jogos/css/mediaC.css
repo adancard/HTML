@@ -1,3 +1,61 @@
+@media screen and (max-width: 500px) {
+
+
+    header{
+
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+
+
+    }
+
+    header #logo{
+
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 150px;
+        align-self: center;
+    }
+
+    .navbar{
+
+        z-index: 1;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .dropdown-content a{
+
+        text-align: center;
+
+    }
+
+    .dropdown-content{
+
+
+        /* border: solid red; */
+        width: 200px;
+
+
+    }
+
+    .dropdown {
+
+        align-self: center;
+        flex-direction: column;
+
+    }
+
+    
+}
+
+
+
+
 @media screen and (max-width: 790px) {
 
     body {
@@ -8,6 +66,7 @@
 
 
     }
+    
 
     .container{
 

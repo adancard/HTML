@@ -1,4 +1,4 @@
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 500px) {
 
     body {
 
@@ -9,9 +9,59 @@
 
     }
 
+    .pimg1{
+
+    z-index: -1;
+
+    }
+
+    header{
+
+        display: flex;
+        flex-direction: column;
+        height: 320px;
+
+
+    }
+
+    header #logo{
+
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 150px;
+        align-self: center;
+    }
+
+    .navbar{
+
+        z-index: 1;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .dropdown-content a{
+
+        text-align: center;
+
+    }
+
+    .dropdown-content{
+
+
+        /* border: solid red; */
+        width: 200px;
+
+
+    }
+
     .dropdown {
+
         align-self: center;
         flex-direction: column;
+
     }
 
     .fundo {

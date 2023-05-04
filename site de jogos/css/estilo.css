@@ -12,17 +12,10 @@ body {
 
 header {
 
- 
+    background-color: #4682B4;
     height: 100px;
     flex: 1 1 100vw;
     display: flex;
-
-}
-
-header {
-
-    height: 100px;
-    flex: 1 1 100vw;
 
 }
 
