@@ -38,6 +38,7 @@
         z-index: 1;
         height: 230px;
         display: flex;
+        padding: 10px;
         flex-direction: column;
 
     }
