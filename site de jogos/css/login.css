@@ -54,22 +54,24 @@ input::placeholder{
 form [type="text"]{
 
     height: 50px;
-    background-color: #4682B4;
+    background-color:transparent;
     border-bottom: solid #111;
     border-top: none;
     border-left: none;
     border-right: none;
+    outline: none;
 
 }
 
 form [type="email"]{
 
     height: 50px;
-    background-color: #4682B4;
+    background-color: transparent;
     border-bottom: solid #111;
     border-top: none;
     border-left: none;
     border-right: none;
+    outline: none;
 }
 
 .ronaldo:hover [type="submit"]{
