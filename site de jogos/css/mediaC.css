@@ -22,7 +22,7 @@
     .navbar{
 
         z-index: 1;
-        height: 200px;
+        height: 230px;
         display: flex;
         flex-direction: column;
 
@@ -47,6 +47,12 @@
 
         align-self: center;
         flex-direction: column;
+
+    }
+
+    .pimg1{
+
+        z-index: -1;
 
     }
 
@@ -81,6 +87,7 @@
 
         background-attachment: fixed;
         text-align: center;
+        z-index: -1;
 
     }
 
@@ -106,6 +113,7 @@
     .pimg1{
 
         background-attachment: fixed;
+        z-index: -1;
 
     }
 
