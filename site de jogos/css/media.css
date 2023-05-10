@@ -21,7 +21,6 @@
         flex-direction: column;
         height: 320px;
 
-
     }
 
     header #logo{
@@ -91,6 +90,12 @@
       
         display: none;
 
+
+    }
+
+    .carrossel{
+
+        z-index: -1;
 
     }
 
