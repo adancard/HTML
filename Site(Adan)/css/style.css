@@ -154,6 +154,42 @@ footer {
 
 }
 
+.ptext {
+
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'Chakra Petch', sans-serif;
+    z-index: 1;
+
+}
+
+.ptext .border {
+
+    background-color: #de3163;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.preco{
+
+    color: green;
+
+}
+
+.ptext .border .trans {
+
+    background-color: transparent;
+
+}
+
 .texto {
     text-align: center;
     color: rgb(255, 255, 255);
