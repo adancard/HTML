@@ -305,6 +305,8 @@ footer p {
     /* flex-wrap: wrap; */
     /*especifica se os itens flexíveis devem ser encapsulados ou não. */
     margin: 5px;
+    width: 70%;
+    left: 200px;
 
     /* border: #e33c09 solid 3px; */
 }
