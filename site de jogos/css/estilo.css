@@ -5,6 +5,7 @@ body {
     /* border: solid red; */
     margin: 0;
     font-size: 16px;
+    height: 1900px;
     background-color: #111;
     color: #ddd;
 
@@ -212,7 +213,7 @@ main {
 
 }
 
-.preco{
+.preco {
 
     color: green;
 
@@ -224,7 +225,7 @@ main {
 
 }
 
-.preco{
+.preco {
 
     color: green;
 
@@ -252,7 +253,9 @@ footer {
 
     text-align: center;
     height: 50px;
-    top: 560px;
+    position: relative;
+    top: 20%;
+    /* border: solid red; */
     background-color: #ddd;
     color: #111;
     width: 100%;
@@ -265,9 +268,10 @@ footer p {
     /* border: solid red; */
     width: 100%;
 
+
 }
 
-.container{
+.container {
 
     /* border: solid red; */
     display: flex;
@@ -276,7 +280,7 @@ footer p {
 
 }
 
-.card{
+.card {
 
     box-shadow: 1px 1px 15px 1px rgb(221, 221, 221);
     border-radius: 10px;
@@ -288,7 +292,7 @@ footer p {
 
 }
 
-.card p{
+.card p {
 
     font-size: 25px;
     padding: 15px;
@@ -339,7 +343,7 @@ footer p {
     height: 100%;
 }
 
-.imagem{
+.imagem {
     width: 100%;
     height: 100%;
 }
@@ -381,3 +385,19 @@ footer p {
 
 }
 
+.video {
+
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+iframe{
+
+    border-radius: 15px;
+    box-shadow: 5px 5px 40px 5px rgb(221, 221, 221);
+
+}
