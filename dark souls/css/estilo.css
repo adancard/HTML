@@ -1,0 +1,84 @@
+    body {
+
+        padding: 0;
+        margin: 0;
+        background-image: url(../img/fundo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+
+    .container {
+
+        /* border: solid red 2px; */
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+
+
+    }
+
+    .vertical-menu {
+        /* border: solid red 2px; */
+        float: left;
+        width: 25%;
+        /* background-color:black; */
+        padding: 20px;
+
+    }
+
+    .vertical-menu a {
+
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 20px;
+        width: 50%;
+        margin: 20px;
+        transition: transform 0.3s ease-in-out;
+
+    }
+
+    .vertical-menu a:hover {
+
+        background: rgb(249, 194, 117);
+        background: -moz-radial-gradient(circle, rgba(249, 194, 117, 1) 0%, rgba(0, 0, 0, 1) 100%);
+        background: -webkit-radial-gradient(circle, rgba(249, 194, 117, 1) 0%, rgba(0, 0, 0, 1) 100%);
+        background: radial-gradient(circle, rgba(249, 194, 117, 1) 0%, rgba(0, 0, 0, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9c275", endColorstr="#000000", GradientType=1);
+        transform: scale(1.1);
+
+    }
+
+    article {
+
+        /* border: solid red 2px; */
+        padding: 20px;
+        width: 80%;
+        color: white;
+        font-size: 20px;
+
+    }
+
+    section {
+
+        border-radius: 20px;
+        position: relative;
+        top: 280px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* border: solid red 2px; */
+        flex: 1;
+        padding: 20px;
+        background: rgb(249, 194, 117);
+        background: -moz-radial-gradient(circle, rgba(249, 194, 117, 1) 0%, rgba(0, 0, 0, 1) 54%);
+        background: -webkit-radial-gradient(circle, rgba(249, 194, 117, 1) 0%, rgba(0, 0, 0, 1) 54%);
+        background: radial-gradient(circle, rgba(249, 194, 117, 1) 0%, rgba(0, 0, 0, 1) 54%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9c275", endColorstr="#000000", GradientType=1);
+        opacity: 90%;
+        box-shadow: 1px 1px 20px white;
+        font-family: dark1;
+
+    }
