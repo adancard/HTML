@@ -1,4 +1,43 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1030px) {
+
+
+
+
+    footer{
+
+        top: 1000px;
+
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+
+    footer{
+
+        top: 1000px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 850px) {
+
+    footer{
+
+        top: 1650px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 750px) {
 
 
     header{
