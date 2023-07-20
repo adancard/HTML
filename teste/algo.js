@@ -10,7 +10,7 @@
 
 // document.write(num1)
 
-var saida1 ="global"
+// var saida1 ="global"
 
 // function metodo(){
 
@@ -21,7 +21,18 @@ var saida1 ="global"
 
 // }
 
- document.write(saida1)
+//  document.write(saida1)
 
 // document.write(metodo())
+
+
+var variavel = "valor inicial";
+
+console.log(variavel);
+                           
+variavel = false;
+console.log(variavel);
+            
+variavel = 1;
+console.log(variavel);
 
